@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SalesWebMvc.Models;
+using SalesWebMvc.Models.ViewModels;
 
 namespace SalesWebMvc.Controllers
 {
@@ -19,6 +20,8 @@ namespace SalesWebMvc.Controllers
         {
             ViewData["Message"] = "Your application description page.";
             ViewData["New"] = "Testando nova TAG";
+
+            ViewData["soma"] = "testes"; //Verificar isso
 
             return View();
         }
