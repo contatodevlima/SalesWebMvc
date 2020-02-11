@@ -21,7 +21,7 @@ namespace SalesWebMvc.Controllers
             ViewData["Message"] = "Your application description page.";
             ViewData["New"] = "Testando nova TAG";
 
-            ViewData["soma"] = "testes"; //Verificar isso
+            ViewData["soma"] = "Testes";
 
             return View();
         }
